@@ -1,3 +1,5 @@
+# This doesn't do anything meaningful, it's just to demo a pipeline in Docker
+
 using CSV, DataFrames, StatsPlots
 
 df = CSV.read("data.csv", DataFrame)
